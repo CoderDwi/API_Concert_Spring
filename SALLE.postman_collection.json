@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "001acc5f-fefa-4c06-ac00-a81d5e2ef1b0",
+		"name": "SALLE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7055548"
+	},
+	"item": [
+		{
+			"name": "GET SALLE",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "POST SALLE",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/salles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"salles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT SALLE",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE SALLE",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GET SALLE BY ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/salles/{{id}}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"salles",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

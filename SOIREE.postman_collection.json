@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "73c0b941-9086-426d-9141-e2fd3e0233bd",
+		"name": "SOIREE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7055548"
+	},
+	"item": [
+		{
+			"name": "GET  SOIREE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/soirees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"soirees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST SOIREE",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "PUT SOIREE",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE SOIREE",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GET  SOIREE BY ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/soirees/{{id}}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"soirees",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

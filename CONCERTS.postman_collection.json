@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "2f5157e4-6d5a-415f-9013-9c9a90fa6c88",
+		"name": "CONCERTS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7055548"
+	},
+	"item": [
+		{
+			"name": "GET CONCERTS",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "POST CONCERT",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "PUT DATE CONCERT BY ID",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE CONCERT",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GET CONCERT BY ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/concerts/{{id}}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"concerts",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
